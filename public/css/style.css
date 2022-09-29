@@ -1,0 +1,120 @@
+html{
+    /*background: linear-gradient(#10163f, #190121 );*/
+    height:100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.envoifesses{
+    width: 10rem;
+    border-radius: 200px;
+}
+
+.card{
+    border-color: #ff2a6d;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+    box-shadow: 0 0 50px -2px #FF2A6D ;
+
+}
+
+.headergra{
+    margin-top:1em;
+}
+
+.boutonduku{
+    background-color: rgb(68, 217, 232);
+    color: black;
+    border: none;
+    box-shadow: 0 0 2px rgb(68 217 232 / 90%), 0 0 4px rgb(68 217 232 / 40%), 0 0 1rem rgb(68 217 232 / 30%), 0 0 4rem rgb(68 217 232 / 10%);
+}
+
+.nav-link:hover, btn-light:hover{
+    text-shadow: 0 0 2px dimgray;
+}
+
+.grantitr{
+    text-shadow: 0 0 2px #FF2A6D;
+}
+
+.effetneon {
+    color: #fff;
+    box-shadow:
+            /*0 0 7px #fff,*/
+            /*0 0 10px #fff,*/
+            0 0 7px rgb(230, 18, 124),
+            0 0 10px rgb(230, 18, 124),
+            0 0 42px rgb(230, 18, 124);
+    animation: lumiere 2s infinite ease-out;
+}
+@keyframes lumiere {
+    0%{
+        box-shadow:
+                /*0 0 7px #fff,*/
+                /*0 0 10px #fff,*/
+                0 0 7px rgb(230, 18, 124),
+                0 0 10px rgb(230, 18, 124),
+                0 0 32px rgb(230, 18, 124);
+    }
+    50%{
+        box-shadow:
+                /*0 0 7px #fff,*/
+                /*0 0 10px #fff,*/
+                0 0 7px rgb(230, 18, 124),
+                0 0 17px rgb(230, 18, 124),
+                0 0 52px rgb(230, 18, 124);
+    }
+    63%{
+        box-shadow:
+            /*0 0 7px #fff,*/
+            /*0 0 10px #fff,*/
+                0 0 1px rgb(230, 18, 124),
+                0 0 3px rgb(230, 18, 124),
+                0 0 8px rgb(230, 18, 124);
+    }
+    64%{
+        box-shadow:
+            /*0 0 7px #fff,*/
+            /*0 0 10px #fff,*/
+                0 0 7px rgb(230, 18, 124),
+                0 0 17px rgb(230, 18, 124),
+                0 0 52px rgb(230, 18, 124);
+    }
+    76%{
+        box-shadow:
+            /*0 0 7px #fff,*/
+            /*0 0 10px #fff,*/
+                0 0 1px rgb(230, 18, 124),
+                0 0 3px rgb(230, 18, 124),
+                0 0 8px rgb(230, 18, 124);
+    }
+    77%{
+        box-shadow:
+            /*0 0 7px #fff,*/
+            /*0 0 10px #fff,*/
+                0 0 7px rgb(230, 18, 124),
+                0 0 17px rgb(230, 18, 124),
+                0 0 52px rgb(230, 18, 124);
+    }
+}
+.list-group-item{
+    margin-bottom: 2px;
+}
+
+.imgbouffar{
+    max-height: 150px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.btn-light{
+    color: black;
+}
+
+.staricon{
+    margin-top: 0.5rem;
+}
